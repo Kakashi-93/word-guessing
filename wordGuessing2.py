@@ -1,4 +1,6 @@
-word = "pan"
+import random
+wordList = ['cat', 'car', 'rat', 'dog', 'pan', 'pen', 'fox', 'gun', 'wax']
+word = random.choice(wordList)
 var1 = "_"
 var2 = "_"
 var3 = "_"
@@ -122,4 +124,5 @@ while guess < 10:
                 *   You can run the game again if you like ^_^   *
                 **************************************************
                 """)
+                print(f"The word was {word}")
                 break
