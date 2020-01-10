@@ -9,6 +9,7 @@ print("""
                 *   WELCOME! To the Word Guessing game                            *
                 *   Game Rules:                                                   * 
                 *   1- There is a word that consist of 3 letters, try to guess    *
+                *   2- You will be guessing the letters not the word              *
                 *   2- If you made 5 wrong attempts you will lose                 *
                 *   3- Read the previous rules carefully                          *
                 *******************************************************************
